@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="input-group search-field my-2">
+        <input #input type="text" class="form-control pl-4 mx-2" placeholder="search for tags" (keyup.enter)="onSearch(input.value)">
+        <div class="search input-group-append">
+            <button class="btn-success btn-sm mx-1" (click)="onSearch(input.value)">Search</button>
+            <button class="btn-outline-secondary btn-sm mx-1" (click)="resetSearch(); input.value=null">Clear</button>
+        </div>
+    </div>
+    <div class="row">
+        <div *ngFor="let item of items" class="thumbnail">
+            <img [src]="item.media.m" class="img-thumbnail">
+        </div>
+        <h5 class="text-center" *ngIf="!items || items.length === 0">Cannot find any image</h5>
+    </div>
+</div>
