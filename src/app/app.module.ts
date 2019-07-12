@@ -5,6 +5,8 @@ import { HttpClientModule  } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
+import { FeedService } from './feed.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +16,9 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
 		HttpClientModule
   ],
-  providers: [],
+  providers: [
+    FeedService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

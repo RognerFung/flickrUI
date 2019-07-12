@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { FeedService } from 'src/app/feed.service';
 
 @Component({
   selector: 'app-home',
@@ -9,21 +9,20 @@ import { HttpClient } from '@angular/common/http';
 export class HomeComponent implements OnInit {
 
   items: any;
+  data: any;
+
   constructor(
-    private http: HttpClient
+    public feedService: FeedService
   ) { }
 
-  async ngOnInit() {
-    const resp = await this.getPublicImages();
-    this.items = resp.items;
-  }
-
-	async getPublicImages() {
-		return this.http.get('http://127.0.0.1:3000').toPromise<any>();
-  }
-  
-	async getPublicImagesWithTags(tags) {
-		return this.http.post('http://127.0.0.1:3000', {tags}).toPromise<any>();
+  ngOnInit() {
+    this.feedService.getPublicImages().subscribe(data => {
+      console.log(data);
+      if (data) {
+        this.data = data;
+        this.items = data.items;
+      }
+    });
   }
 
   //clear tags and research for random
@@ -32,8 +31,13 @@ export class HomeComponent implements OnInit {
   }
 
   //search for tags
-  async onSearch(event) {
-    const resp = await this.getPublicImagesWithTags(event);
-    this.items = resp.items;
+  onSearch(event) {
+    this.feedService.getPublicImagesWithTags(event).subscribe(data => {
+      console.log(data);
+      if (data) {
+        this.data = data;
+        this.items = data.items;
+      }
+    });
   }
 }
