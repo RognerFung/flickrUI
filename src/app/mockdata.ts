@@ -1,0 +1,60 @@
+export const MockData =
+{
+    description: "",
+    generator: "https://www.flickr.com",
+    items: [
+        {title: "Jubilee Court", link: "https://www.flickr.com/photos/mdpettitt/48257952021/", media: {}, date_taken: "2019-07-06T05:42:16-08:00"},
+        {title: "Khuyến mãi Apple Smart Keyboard 12.9 inch iPad Pro… ... - sales@queenmobile.net Smart Keyboard kết n", link: "https://www.flickr.com/photos/tonghopdeal/48257952116/", media: {}, date_taken: "2019-07-11T08:33:31-08:00"},
+        {title: "Chokka for Your Pokka", link: "https://www.flickr.com/photos/hamsters/48257952456/", media: {}, date_taken: "2019-07-11T15:55:55-08:00"},
+        {title: "Pioneer Court", link: "https://www.flickr.com/photos/134160943@N04/48257953136/", media: {}, date_taken: "2019-06-28T17:50:57-08:00"},
+        {title: "DJI_0074", link: "https://www.flickr.com/photos/146794090@N08/48257953386/", media: {}, date_taken: "2019-07-08T16:03:43-08:00"},
+        {title: "CON Simulation Training Center July 10, 2019", link: "https://www.flickr.com/photos/uwoshkosh/48257953736/", media: {}, date_taken: "2019-07-10T14:19:24-08:00"},
+        {title: "4.jpg", link: "https://www.flickr.com/photos/40129895@N03/48257953801/", media: {}, date_taken: "2019-07-11T08:33:45-08:00"},
+        {title: "Plot 33 mark", link: "https://www.flickr.com/photos/47520284@N08/48258023312/", media: {}, date_taken: "2019-07-11T16:33:24-08:00"},
+        {title: "IMG_20190620_194652", link: "https://www.flickr.com/photos/163031870@N02/48258023702/", media: {}, date_taken: "2019-06-20T19:46:52-08:00"},
+        {title: "Treat Yourself", link: "https://www.flickr.com/photos/133282013@N05/48258023727/", media: {}, date_taken: "2019-07-11T13:57:08-08:00"},
+        {title: "2019-07-11_06-33-24", link: "https://www.flickr.com/photos/182429006@N04/48258023797/", media: {}, date_taken: "2018-11-06T13:57:02-08:00"},
+        {title: "Rotterdam bouw 11-07-2019", link: "https://www.flickr.com/photos/33091474@N07/48258024067/", media: {}, date_taken: "2019-07-11T17:03:10-08:00"},
+        {title: "IMG_20190624_084553", link: "https://www.flickr.com/photos/118548436@N08/48258024347/", media: {}, date_taken: "2019-06-24T08:25:15-08:00"},
+        {title: "IMG_20190711_150759", link: "https://www.flickr.com/photos/juuho/48258025377/", media: {}, date_taken: "2019-07-11T15:08:00-08:00"},
+        {title: "Gympie Station", link: "https://www.flickr.com/photos/mittens_97/48258025467/", media: {}, date_taken: "2019-07-10T08:20:29-08:00"},
+        {title: "Fantasywear from sissypink.com 🎀", link: "https://www.flickr.com/photos/sosissypink/48258025822/", media: {}, date_taken: "2019-07-11T08:33:45-08:00"},
+        {title: "AER057.jpg", link: "https://www.flickr.com/photos/austinrapp/48258025902/", media: {}, date_taken: "2019-07-11T11:11:04-08:00"},
+        {title: "Südlicher Blaupfeil (Männchen)", link: "https://www.flickr.com/photos/12639178@N07/48258025987/", media: {}, date_taken: "2019-07-03T16:57:33-08:00"},
+        {title: "Diplomat Appreciation", link: "https://www.flickr.com/photos/netarrantchamber/48258026007/", media: {}, date_taken: "2019-07-09T17:14:45-08:00"},
+        {title: "20190711-143235.jpg", link: "https://www.flickr.com/photos/skillsmatter/48258026142/", media: {}, date_taken: "2019-07-11T14:32:35-08:00"}
+    ],
+    link: "https://www.flickr.com/photos/",
+    modified: "2019-07-11T15:33:30Z",
+    title: "Uploads from everyone"
+}
+
+export const MockDataTags = {
+    description: "",
+    generator: "https://www.flickr.com",
+    items: [
+        {title: "Rosie Girl", link: "https://www.flickr.com/photos/147203834@N06/48261685656/", media: {}, date_taken: "2019-06-06T09:00:53-08:00", tags: "dog"},
+        {title: "No tengas miedo...siempre te cuidare", link: "https://www.flickr.com/photos/alyaz7/48261679772/", media: {}, date_taken: "2019-01-07T00:03:55-08:00", tags: "dog"},
+        {title: "Thursday enjoying the 4th :) - Tenants Harbor Maine", link: "https://www.flickr.com/photos/ysnp/48261598566/", media: {}, date_taken: "2019-07-11T18:26:34-08:00", tags: "dog"},
+        {title: "Shrine (Exploring Oiso)", link: "https://www.flickr.com/photos/56248055@N08/48261570102/", media: {}, date_taken: "2019-06-13T10:13:27-08:00", tags: "dog"},
+        {title: "DSC_3083", link: "https://www.flickr.com/photos/thevillageplate/48261588977/", media: {}, date_taken: "2019-07-07T13:02:13-08:00", tags: "dog"},
+        {title: "DSC_3080", link: "https://www.flickr.com/photos/thevillageplate/48261412326/", media: {}, date_taken: "2019-07-07T13:00:52-08:00", tags: "dog"},
+        {title: "DSC_2676", link: "https://www.flickr.com/photos/thevillageplate/48261450266/", media: {}, date_taken: "2019-07-06T15:50:21-08:00", tags: "dog"},
+        {title: "DSC_3098", link: "https://www.flickr.com/photos/thevillageplate/48261409921/", media: {}, date_taken: "2019-07-07T13:04:25-08:00", tags: "dog"},
+        {title: "DSC_3079", link: "https://www.flickr.com/photos/thevillageplate/48261483852/", media: {}, date_taken: "2019-07-07T13:00:36-08:00", tags: "dog"},
+        {title: "Mamiya U CicLAvia Culver City 2015 6", link: "https://www.flickr.com/photos/30811353@N04/48261092377/", media: {}, date_taken: "2019-06-04T01:34:12-08:00", tags: "dog"},
+        {title: "Mamiya U CicLAvia Culver City 2015 7", link: "https://www.flickr.com/photos/30811353@N04/48261020931/", media: {}, date_taken: "2019-06-04T01:34:10-08:00", tags: "dog"},
+        {title: "Mamiya U CicLAvia Culver City 2015 9", link: "https://www.flickr.com/photos/30811353@N04/48261020866/", media: {}, date_taken: "2019-06-04T01:34:08-08:00", tags: "dog"},
+        {title: "Mamiya U CicLAvia Culver City 2015 8", link: "https://www.flickr.com/photos/30811353@N04/48261020576/", media: {}, date_taken: "2019-06-04T01:34:09-08:00", tags: "dog"},
+        {title: "GANDALF THE WHITE", link: "https://www.flickr.com/photos/182301810@N03/48261327237/", media: {}, date_taken: "2018-01-02T18:10:44-08:00", tags: "dog"},
+        {title: "Chillin'", link: "https://www.flickr.com/photos/jamesmilstid/48261174197/", media: {}, date_taken: "2019-07-10T11:52:15-08:00", tags: "dog"},
+        {title: "DSC_3064", link: "https://www.flickr.com/photos/thevillageplate/48261192582/", media: {}, date_taken: "2019-07-07T12:48:16-08:00", tags: "dog"},
+        {title: "DSC_2705_SP", link: "https://www.flickr.com/photos/thevillageplate/48260815676/", media: {}, date_taken: "2019-07-06T15:54:02-08:00", tags: "dog"},
+        {title: "Dog Rose (Rosa canina)", link: "https://www.flickr.com/photos/165899464@N05/44953692045/", media: {}, date_taken: "2016-07-17T11:09:40-08:00", tags: "dog"},
+        {title: "V8", link: "https://www.flickr.com/photos/craftmunky07/48261060722/", media: {}, date_taken: "2019-07-10T20:32:14-08:00", tags: "dog"},
+        {title: "_DSC0051", link: "https://www.flickr.com/photos/serenity_photogtaphy/48260962781/", media: {}, date_taken: "2015-12-25T01:52:37-08:00", tags: "dog"},
+    ],
+    link: "https://www.flickr.com/photos/tags/dog/",
+    modified: "2019-07-11T16:02:09Z",
+    title: "Recent Uploads tagged dog"
+}
